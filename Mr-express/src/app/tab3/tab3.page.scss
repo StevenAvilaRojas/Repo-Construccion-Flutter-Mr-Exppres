@@ -1,3 +1,22 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+.foto{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  
+}
+.t{
+  text-align: center;
+}
+
+.style{
+  background-color:rgb(242,242,242);
+}
