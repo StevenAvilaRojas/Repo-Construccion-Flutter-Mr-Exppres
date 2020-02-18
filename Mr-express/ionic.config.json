@@ -1,5 +1,7 @@
 {
   "name": "Mr-express",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

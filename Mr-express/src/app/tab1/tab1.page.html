@@ -1,11 +1,38 @@
+<ion-menu side="start" menuId="first" contentId="main">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Perfil</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <img src="https://image.flaticon.com/icons/svg/149/149071.svg">
+      </ion-item>
+      <ion-item>
+        <ion-icon name="person-outline"></ion-icon> Nombre: Item
+      </ion-item>
+      <ion-item>
+        <ion-icon name="person-outline"></ion-icon> Apellido: Prueba
+      </ion-item>
+      <ion-item>
+        <ion-icon name="call-outline"></ion-icon> Telefono: 3107654321
+      </ion-item>
+      <ion-item>
+        <ion-icon name="mail-outline"></ion-icon> Correo: prueba@prueba.com
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-router-outlet id="main"></ion-router-outlet>
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button> <img src="https://image.flaticon.com/icons/svg/149/149071.svg"></ion-menu-button>
+    </ion-buttons>
     <ion-title>
-<<<<<<< HEAD
       Home
-=======
-      Mr-Express
->>>>>>> master
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,12 +41,7 @@
 
   <ion-header collapse="condense">
     <ion-toolbar>
-<<<<<<< HEAD
       <ion-title size="large">Home</ion-title>
-=======
-      <ion-title size="large">Tab 1</ion-title>
-      
->>>>>>> master
     </ion-toolbar>
   </ion-header>
 
@@ -68,12 +90,12 @@
                 <!--
                   --><label for="radio5">★</label>
               </p>
-            </form>         
-           </div>
+            </form>
+          </div>
         </div>
       </div>
     </ion-slide>
-    
+
 
     <ion-slide>
       <ion-card>
@@ -115,8 +137,8 @@
                 <!--
                   --><label for="radio5">★</label>
               </p>
-            </form>         
-           </div>
+            </form>
+          </div>
         </div>
       </div>
     </ion-slide>
@@ -161,8 +183,8 @@
                 <!--
                   --><label for="radio5">★</label>
               </p>
-            </form>         
-           </div>
+            </form>
+          </div>
         </div>
       </div>
     </ion-slide>
@@ -207,8 +229,8 @@
                 <!--
                   --><label for="radio5">★</label>
               </p>
-            </form>         
-           </div>
+            </form>
+          </div>
         </div>
       </div>
     </ion-slide>
